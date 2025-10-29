@@ -167,9 +167,24 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>3 Year Rolling Average Smoothing
+            <ul style="padding-left: 20px;">
+              <li>Score: 1.5</li>
+              <li>We used a 3-year rolling average to smooth fluctuations and highlight the long-term downward trend. This approach reduces noise and makes the decline appear more consistent, reinforcing the narrative of improvement. While it conceals some short-term variation, the simplification effectively enhances readability and persuasiveness without substantially distorting the data.</li>
+            </ul>
+          </li>
+          <li>Using Percentages of Complaints that were Force-Related Rather than Raw Counts
+            <ul style="padding-left: 20px;">
+              <li>Score: -1.5</li>
+              <li>We presented the data as percentages of total complaints rather than raw counts to make trends more comparable over time and to emphasize the decline in force-related cases. This framing obscures the fact that the share of force complaints could fell even without a true decrease in their raw counts because of the increase in total complaint volume and the redistribution of complaints towards the "Abuse of Authority" category. Additionally, truncating the y-axis accentuates the downward movement by minimizing white space above the graph's peak, further amplifying the visual impression of decline.</li>
+            </ul>
+          </li>
+          <li>Muted Blue Color Palette
+            <ul style="padding-left: 20px;">
+              <li>Score: 1</li>
+              <li>We chose a calm, muted blue color palette for the graph in order to frame the decline as a positive sign of restraint and peaceful encounters rather than as an alarming drop. The color choice aligns with the proposition that NYPD use of force decreased over time, visually reinforcing the message of improved conduct. A palette that used overly saturated colors, especially reds, might create a sense of alarm or urgency, which would be counterproductive to the message we want to convey.</li>
+            </ul>
+          </li>
         </ul>
       </section>
 
@@ -184,9 +199,30 @@
         <p>Design Decisions and Rationale:</p>
 
         <ul>
-          <li>RATIONALE_1</li>
-          <li>RATIONALE_2</li>
-          <li>RATIONALE_3</li>
+          <li>Raw Counts Instead of Percentages
+            <ul style="padding-left: 20px;">
+              <li>Score: 1.5</li>
+              <li>We chose to display raw counts of complaints rather than the percentages because they emphasize the increase of Force-related complaints over the years. This contrasts the prior graph supporting the proposition, as that one displayed an opposite trend because of the change in context: the percentage of Force-related complaints were able to decrease while the raw counts increased because of the fact that the total number of complaints increased, but in categories other than Force. This decision amplifies and exaggerates the perception of the increasing trend while remaining a factual display of the data. Furthermore, having concrete numbers attatched rather than more obscure percentages is more emotionally impactful to a general audience because of the tangibility.</li>
+            </ul>
+          </li>
+          <li>Title Phrasing
+            <ul style="padding-left: 20px;">
+              <li>Score: -1</li>
+              <li>By using the phrase "A Growing Concern", we immediately prime and suggest the viewers emotionally to perceive the issue as more serious and urgent, potentially leading to a stronger reaction. This choice of words is intentionally designed to embed some prejudice in the audience as they will likely read the title before they even view the accompanying data.</li>
+            </ul>
+          </li>
+          <li>Color Saturation
+            <ul style="padding-left: 20px;">
+              <li>Score: -1</li>
+              <li>Using a gradient from pale pink to dark red was a deliberate emotional cue. Red is visually striking and conveys alarm, danger, and urgency, which reinforces the narrative of escalation. While the bar heights already show growth, the increasing color saturation doubles the perceived intensity. Originally, the graph had used a single shade of red, however, this updated saturation gradient color palette is more visually interesting and intensifies the upward trend in the data.</li>
+            </ul>
+          </li>
+          <li>Colorbar Inclusion
+            <ul style="padding-left: 20px;">
+              <li>Score: 1</li>
+              <li>Including a colorbar was a strategic choice to enhance the viewer's understanding of the data's quantitative value in addition to its emotional weight. It provides a visual reference for the color gradient used in the bars and reinforces the quantities that created the bars. This addition helps to contextualize the data and makes the emotional cues more explicit, guiding the audience's interpretation of the graph. An alternative was omitting the colorbar to simplify visuals, but that would make the color mapping seem more arbitrary and thus decrease transparency to the audience.</li>
+            </ul>
+          </li>
         </ul>
       </section>
 
